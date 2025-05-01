@@ -1,0 +1,22 @@
+[project]
+name = "udacity-final-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.10.11"
+dependencies = [
+    "chromadb==0.4.12",
+    "jupyter==1.0.0",
+    "langchain==0.0.305",
+    "openai==0.28.1",
+    "pydantic>=1.10.12",
+    "pytest>=7.4.0",
+    "sentence-transformers>=2.2.0",
+    "tiktoken==0.4.0",
+    "transformers>=4.31.0",
+    "langchain-community==0.0.19",
+    "python-dotenv"
+]
+
+[project.optional-dependencies]
+notebook = ["ipykernel",]
