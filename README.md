@@ -2,8 +2,6 @@
 
 This project is Final Project for Udacity program in Generative AI course.
 
-This project will demostrate using LangChain to query search from ChromaDB.
-
 ## Prerequisites
 
 To run this project, you need to have the following installed:
@@ -11,8 +9,7 @@ To run this project, you need to have the following installed:
 - Python
 - Jupyter Notebook (VS Code)
 - Required Python libraries (listed in `pyproject.toml`)
-
-You will need to have valid OpenAI key too.
+- Update OpenAI key in `.env`
 
 ## Installation
 
@@ -35,7 +32,7 @@ You will need to have valid OpenAI key too.
    uv sync
    ```
 
-1. Open the project notebook file (`<notebook-name>.ipynb`) and follow the instructions.
+1. Run the project notebook file (`HomeMatch-CLIP.ipynb`).
 
 ## Note:
 
